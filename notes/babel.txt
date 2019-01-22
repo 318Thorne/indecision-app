@@ -1,0 +1,4 @@
+babel compiles down to older javascript.
+- presets needed are react and env.
+- run "babel src/app.js --out-file=public/scripts/app.js --presets=env,react" to convert from src/app to sripts/app.
+- add --watch to auto update
